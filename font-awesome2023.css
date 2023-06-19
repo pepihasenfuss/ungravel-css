@@ -1,0 +1,489 @@
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* makes the font 33% larger relative to the icon container */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fa-2x {
+  font-size: 2em;
+}
+.fa-3x {
+  font-size: 3em;
+}
+.fa-4x {
+  font-size: 4em;
+}
+.fa-5x {
+  font-size: 5em;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.fa-ul > li {
+  position: relative;
+}
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.fa-li.fa-lg {
+  left: -1.85714286em;
+}
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+.fa-pull-left {
+  float: left;
+}
+.fa-pull-right {
+  float: right;
+}
+.fa.fa-pull-left {
+  margin-right: .3em;
+}
+.fa.fa-pull-right {
+  margin-left: .3em;
+}
+/* Deprecated as of 4.4.0 */
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.fa.pull-left {
+  margin-right: .3em;
+}
+.fa.pull-right {
+  margin-left: .3em;
+}
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none;
+}
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.fa-stack-1x,
+.fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.fa-stack-1x {
+  line-height: inherit;
+}
+.fa-stack-2x {
+  font-size: 2em;
+}
+.fa-inverse {
+  color: #ffffff;
+}
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+
+   .fa-genderless:before {
+     content: "\f22d";
+   }
+   .fa-female:before {
+     content: "\f182";
+   }
+   .fa-male:before {
+     content: "\f183";
+   }
+   .fa-intersex:before,
+   .fa-transgender:before {
+     content: "\f224";
+   }
+   .fa-transgender-alt:before {
+     content: "\f225";
+   }
+   .fa-thumbs-o-up:before {
+     content: "\f087";
+   }
+   .fa-thumbs-o-down:before {
+     content: "\f088";
+   }
+   .fa-user-secret:before {
+     content: "\f21b";
+   }
+   .fa-user-plus:before {
+     content: "\f234";
+   }
+   .fa-user-times:before {
+     content: "\f235";
+   }
+   .fa-circle-o:before {
+     content: "\f10c";
+   }
+   .fa-balance-scale:before {
+     content: "\f24e";
+   }
+   .fa-toggle-down:before,
+   .fa-caret-square-o-down:before {
+     content: "\f150";
+   }
+   .fa-toggle-up:before,
+   .fa-caret-square-o-up:before {
+     content: "\f151";
+   }
+   .fa-toggle-right:before,
+   .fa-caret-square-o-right:before {
+     content: "\f152";
+   }
+   .fa-euro:before,
+   .fa-eur:before {
+     content: "\f153";
+   }
+   .fa-dollar:before,
+   .fa-usd:before {
+     content: "\f155";
+   }
+   .fa-random:before {
+     content: "\f074";
+   }
+   .fa-object-group:before {
+     content: "\f247";
+   }
+   .fa-object-ungroup:before {
+     content: "\f248";
+   }
+   .fa-cube:before {
+     content: "\f1b2";
+   }
+   .fa-cubes:before {
+     content: "\f1b3";
+   }
+   .fa-spinner:before {
+     content: "\f110";
+   }
+   .fa-list:before {
+     content: "\f03a";
+   }
+   .fa-arrows-v:before {
+     content: "\f07d";
+   }
+   .fa-arrows-h:before {
+     content: "\f07e";
+   }
+   .fa-bar-chart-o:before,
+   .fa-bar-chart:before {
+     content: "\f080";
+   }
+   .fa-th:before {
+     content: "\f00a";
+   }
+   .fa-cut:before,
+   .fa-scissors:before {
+     content: "\f0c4";
+   }
+   .fa-eraser:before {
+     content: "\f12d";
+   }
+   .fa-table:before {
+     content: "\f0ce";
+   }
+   .fa-comment:before {
+     content: "\f075";
+   }
+   .fa-plus-square:before {
+     content: "\f0fe";
+   }
+   .fa-plus-square-o:before {
+     content: "\f196";
+   }
+   .fa-refresh:before {
+     content: "\f021";
+   }
+   .fa-list-alt:before {
+     content: "\f022";
+   }
+   .fa-lock:before {
+     content: "\f023";
+   }
+   .fa-gear:before,
+   .fa-cog:before {
+     content: "\f013";
+   }
+   .fa-gears:before,
+   .fa-cogs:before {
+     content: "\f085";
+   }
+   .fa-trash-o:before {
+     content: "\f014";
+   }
+   .fa-stop-circle-o:before {
+     content: "\f28e";
+   }
+   .fa-snowflake-o:before {
+     content: "\f2dc";
+   }
+   .fa-superpowers:before {
+     content: "\f2dd";
+   }
+   .fa-level-up:before {
+     content: "\f148";
+   }
+   .fa-level-down:before {
+     content: "\f149";
+   }
+   .fa-code-fork:before {
+     content: "\f126";
+   }
+   .fa-sign-out:before {
+     content: "\f08b";
+   }
+   .fa-database:before {
+     content: "\f1c0";
+   }
+   .fa-chain:before,
+   .fa-link:before {
+     content: "\f0c1";
+   }
+   .fa-check-square:before {
+     content: "\f14a";
+   }
+   .fa-check-square-o:before {
+     content: "\f046";
+   }
+   .fa-plus-circle:before {
+     content: "\f055";
+   }
+   .fa-minus-circle:before {
+     content: "\f056";
+   }
+   .fa-remove:before,
+   .fa-close:before,
+   .fa-times:before {
+     content: "\f00d";
+   }
+   .fa-chain:before,
+   .fa-link:before {
+     content: "\f0c1";
+   }
+   .fa-times-rectangle:before,
+   .fa-window-close:before {
+     content: "\f2d3";
+   }
+   .fa-times-rectangle-o:before,
+   .fa-window-close-o:before {
+     content: "\f2d4";
+   }
+   .fa-ban:before {
+     content: "\f05e";
+   }
+   .fa-comment-o:before {
+     content: "\f0e5";
+   }
+   .fa-pie-chart:before {
+     content: "\f200";
+   }
+   .fa-keyboard-o:before {
+     content: "\f11c";
+   }
+   .fa-puzzle-piece:before {
+     content: "\f12e";
+   }
+   .fa-hand-spock-o:before {
+     content: "\f259";
+   }
+   .fa-toggle-left:before,
+   .fa-caret-square-o-left:before {
+     content: "\f191";
+   }
+   .fa-circle:before {
+     content: "\f111";
+   }
+   .fa-free-code-camp:before {
+     content: "\f2c5";
+   }
+   .fa-group:before,
+   .fa-users:before {
+     content: "\f0c0";
+   }
+   .fa-unlock-alt:before {
+     content: "\f13e";
+   }
+   .fa-wrench:before {
+     content: "\f0ad";
+   }
+   .fa-binoculars:before {
+     content: "\f1e5";
+   }
+   .fa-bug:before {
+     content: "\f188";
+   }
+   .fa-cloud-upload:before {
+     content: "\f0ee";
+   }
+   .fa-cloud-download:before {
+     content: "\f0ed";
+   }
+   .fa-toggle-off:before {
+     content: "\f204";
+   }
+   .fa-toggle-on:before {
+     content: "\f205";
+   }
+   .fa-heart:before {
+     content: "\f004";
+   }
+   .fa-heart-o:before {
+     content: "\f08a"
+   }
+   .fa-repeat:before {
+     content: "\f01e"
+   }
+   .fa-question:before {
+     content: "\f128"
+   }
+   .fa-envelope:before {
+     content: "\f0e0"
+   }
+   .fa-envelope-o:before {
+     content: "\f003"
+   }
+   .fa-compass:before {
+     content: "\f14e"
+   }
+   .fa-question-circle-o:before {
+     content: "\f29c"
+   }
+   .fa-grav:before {
+     content: "\f2d6"
+   }
+   .fa-pencil-square-o:before {
+     content: "\f044"
+   }
+   .fa-chain-broken:before {
+     content: "\f127"
+   }
+/*
+./font-ranger -f /Users/pepsi/Downloads/fontawesome-webfont.woff2 -r U+f000, U+f013, U+f014, U+f021, U+f023, U+f22d, U+f182, U+f183, U+f224, U+f225, U+f087, U+f088, U+f21b, U+f234-f235, U+f10c, U+f24e, U+f077-f078, U+f150-f153, U+f155, U+f074, U+f247-f248, U+f1b2-f1b3, U+f110, U+f050-f051, U+f03a, U+f07d-f07e, U+f080, U+f00a, U+f0c4, U+f12d, U+f0ce, U+f075, U+f0fe, U+f196, U+f021-f023, U+f013-f014, U+f085, U+f28e, U+f2dc, U+f2dd, U+f148-f149, U+f126, U+f08b, U+f1c0-f1c1, U+f14a, U+f046, U+f055-f056, U+f00d, U+f0c1, U+f2d3, U+f2d4, U+f0e5, U+f200, U+f11c, U+f12e, U+f259, U+f191, U+f111, U+f2c5, U+f0c0, U+f13e, U+f0ad, U+f1e5, U+f188, U+f05e -k -d -u latin -o /Users/pepsi/Downloads/petersSubset.woff2 */
+
+
+/*  glyphhanger --formats=ttf --subset=*.woff2 --whitelist="U+f000, U+f013, U+f014, U+f021, U+f023, U+f22d, U+f182, U+f183, U+f224, U+f225, U+f087, U+f088, U+f21b, U+f234-f235, U+f10c, U+f24e, U+f150-f153, U+f155, U+f074, U+f247-f248, U+f1b2-f1b3, U+f110, U+f050-f051, U+f03a, U+f07d-f07e, U+f080, U+f00a, U+f0c4, U+f12d, U+f0ce, U+f075, U+f0fe, U+f196, U+f021-f023, U+f013-f014, U+f085, U+f28e, U+f2dc, U+f2dd, U+f148-f149, U+f126, U+f08b, U+f1c0-f1c1, U+f14a, U+f046, U+f055-f056, U+f00d, U+f0c1, U+f2d3, U+f2d4, U+f0e5, U+f200, U+f11c, U+f12e, U+f259, U+f191, U+f111, U+f2c5, U+f0c0, U+f13e, U+f0ad, U+f1e5, U+f188, U+f05e, U+f0ee, U+f0ed, U+f204, U+f205, U+f004, U+f08a, U+f01e, U+f128, U+f0e0, U+f003, U+f14e, U+f29c, U+f2d6, U+f044, U+f127"    
+
+  head -c 32768 ./fontawesome-webfont-subset.woff2 | xxd -p | tr -d \\n && printf '\n'   */
+
+
+
+
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
